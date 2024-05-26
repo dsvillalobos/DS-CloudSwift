@@ -1,0 +1,88 @@
+body {
+  margin: 0% !important;
+  background-color: #f8f9fa !important;
+}
+
+.bg-dark {
+  background-color: #22223b !important;
+}
+
+.btn-primary,
+.table-primary,
+.carousel-indicators button {
+  color: #fff !important;
+  background-color: #4a4e69 !important;
+  border: #4a4e69 !important;
+}
+
+.btn-secondary {
+  color: #fff !important;
+  background-color: #9a8c98 !important;
+  border: #9a8c98 !important;
+}
+
+.btn-info {
+  color: #fff !important;
+  background-color: #70798c !important;
+  border: #70798c !important;
+}
+
+.illustration-container img {
+  width: 300px !important;
+  height: auto !important;
+}
+
+#barChartContainer,
+#doughnutChartContainer {
+  height: 300px !important;
+  width: auto !important;
+}
+
+/*iPad*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .illustration-container img {
+    width: 300px !important;
+    height: auto !important;
+  }
+
+  #barChartContainer,
+  #doughnutChartContainer {
+    height: 325px !important;
+    width: auto !important;
+  }
+}
+
+/*PCs and Laptops*/
+@media only screen and (min-width: 1025px) {
+  .illustration-container img {
+    width: 275px !important;
+    height: auto !important;
+  }
+
+  #barChartContainer,
+  #doughnutChartContainer {
+    height: 325px !important;
+    width: auto !important;
+  }
+}
+
+.navbar button,
+.form-control,
+.form-control:active,
+.btn-close {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button,
+.accordion-button:active,
+.accordion-button:hover {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #fff !important;
+}
+
+.rounded-table {
+  border-radius: 2.5px !important;
+  overflow: hidden !important;
+}
