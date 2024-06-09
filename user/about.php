@@ -3,9 +3,9 @@
 
 <?php
 
-include "../includes/heads/user_head.php";
-
 session_start();
+
+include "../includes/heads/user_head.php";
 
 if (empty($_SESSION["userId"])) {
     header("Location: ../index.php");
@@ -28,7 +28,7 @@ if (empty($_SESSION["userId"])) {
                     <span class="fw-bold">Created by</span> @dsvillalobos
                 </li>
                 <li class="list-group-item">
-                    <span class="fw-bold">Version</span> 0.1.0
+                    <span class="fw-bold">Version</span> 0.2.0
                 </li>
                 <li class="list-group-item">
                     <span class="fw-bold">Help & Privacy</span>

@@ -3,9 +3,11 @@
 
 <?php
 
-include "./includes/heads/index_head.php";
+ob_start();
 
 session_start();
+
+include "./includes/heads/index_head.php";
 
 ?>
 
@@ -77,7 +79,11 @@ session_start();
         }
     }
 
+    ob_end_flush();
+
     ?>
+
+    <script src="./public/javascripts/serviceWorker-register.js"></script>
 
 </body>
 

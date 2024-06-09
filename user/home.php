@@ -3,9 +3,9 @@
 
 <?php
 
-include "../includes/heads/user_head.php";
-
 session_start();
+
+include "../includes/heads/user_head.php";
 
 if (empty($_SESSION["userId"])) {
     header("Location: ../index.php");
@@ -53,11 +53,7 @@ if (empty($_SESSION["userId"])) {
         $stmtLastFile->execute();
         $rowLastFile = $stmtLastFile->fetch(PDO::FETCH_ASSOC);
     } else {
-        $rowLastFile = array(
-            "FileName" => "",
-            "Date" => "",
-            "Time" => ""
-        );
+        $rowLastFile = null;
     }
 
     if ($rowLinks["Links"] > 0) {
@@ -67,11 +63,7 @@ if (empty($_SESSION["userId"])) {
         $stmtLastLink->execute();
         $rowLastLink = $stmtLastLink->fetch(PDO::FETCH_ASSOC);
     } else {
-        $rowLastLink = array(
-            "LinkTitle" => "",
-            "Date" => "",
-            "Time" => ""
-        );
+        $rowLastLink = null;
     }
 
     if ($rowNotes["Notes"] > 0) {
@@ -81,11 +73,7 @@ if (empty($_SESSION["userId"])) {
         $stmtLastNote->execute();
         $rowLastNote = $stmtLastNote->fetch(PDO::FETCH_ASSOC);
     } else {
-        $rowLastNote = array(
-            "NoteTitle" => "",
-            "Date" => "",
-            "Time" => ""
-        );
+        $rowLastNote = null;
     }
 
     ?>
@@ -148,21 +136,32 @@ if (empty($_SESSION["userId"])) {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td class="small"><?php echo $rowLastFile["FileName"]; ?></td>
-                            <td class="small"><?php echo $rowLastFile["Date"]; ?></td>
-                            <td class="small"><?php echo $rowLastFile["Time"]; ?></td>
-                        </tr>
-                        <tr>
-                            <td class="small"><?php echo $rowLastLink["LinkTitle"]; ?></td>
-                            <td class="small"><?php echo $rowLastLink["Date"]; ?></td>
-                            <td class="small"><?php echo $rowLastLink["Time"]; ?></td>
-                        </tr>
-                        <tr>
-                            <td class="small"><?php echo $rowLastNote["NoteTitle"]; ?></td>
-                            <td class="small"><?php echo $rowLastNote["Date"]; ?></td>
-                            <td class="small"><?php echo $rowLastNote["Time"]; ?></td>
-                        </tr>
+                        <?php if ($rowLastFile) { ?>
+                            <tr>
+                                <td class="small"><?php echo $rowLastFile["FileName"]; ?></td>
+                                <td class="small"><?php echo $rowLastFile["Date"]; ?></td>
+                                <td class="small"><?php echo $rowLastFile["Time"]; ?></td>
+                            </tr>
+                        <?php } ?>
+                        <?php if ($rowLastLink) { ?>
+                            <tr>
+                                <td class="small"><?php echo $rowLastLink["LinkTitle"]; ?></td>
+                                <td class="small"><?php echo $rowLastLink["Date"]; ?></td>
+                                <td class="small"><?php echo $rowLastLink["Time"]; ?></td>
+                            </tr>
+                        <?php } ?>
+                        <?php if ($rowLastNote) { ?>
+                            <tr>
+                                <td class="small"><?php echo $rowLastNote["NoteTitle"]; ?></td>
+                                <td class="small"><?php echo $rowLastNote["Date"]; ?></td>
+                                <td class="small"><?php echo $rowLastNote["Time"]; ?></td>
+                            </tr>
+                        <?php } ?>
+                        <?php if (!$rowLastFile && !$rowLastLink && !$rowLastNote) { ?>
+                            <tr>
+                                <td class="small text-center" colspan="3">Get started by adding your first File, Link or Note.</td>
+                            </tr>
+                        <?php } ?>
                     </tbody>
                 </table>
             </div>

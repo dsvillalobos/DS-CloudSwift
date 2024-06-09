@@ -3,9 +3,9 @@
 
 <?php
 
-include "./includes/heads/index_head.php";
-
 session_start();
+
+include "./includes/heads/index_head.php";
 
 ?>
 
