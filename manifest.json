@@ -42,5 +42,37 @@
       "type": "image/png",
       "purpose": "maskable"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "./public/images/mobile-screenshots/sign-in.png",
+      "sizes": "586x1041",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "./public/images/mobile-screenshots/home.png",
+      "sizes": "586x1041",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "./public/images/mobile-screenshots/files.png",
+      "sizes": "586x1041",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "./public/images/mobile-screenshots/links.png",
+      "sizes": "586x1041",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "./public/images/mobile-screenshots/notes.png",
+      "sizes": "586x1041",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
   ]
 }

@@ -159,7 +159,7 @@ if (empty($_SESSION["userId"])) {
                         <?php } ?>
                         <?php if (!$rowLastFile && !$rowLastLink && !$rowLastNote) { ?>
                             <tr>
-                                <td class="small text-center" colspan="3">Get started by adding your first File, Link or Note.</td>
+                                <td class="small text-center" colspan="3">Get started by adding your first file, link or note.</td>
                             </tr>
                         <?php } ?>
                     </tbody>

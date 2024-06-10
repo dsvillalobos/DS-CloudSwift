@@ -40,7 +40,7 @@ include "./includes/heads/index_head.php";
                     <input type="submit" name="signIn" value="Sign In" class="btn btn-primary">
                 </div>
                 <div class="mb-3 text-center small">
-                    Don't have an account yet? <a href="./sign-up.php">Sign Up</a>.
+                    Don't have an account yet? <a class="text-dark" href="./sign-up.php">Sign Up</a>.
                 </div>
             </form>
         </main>

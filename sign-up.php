@@ -52,7 +52,7 @@ include "./includes/heads/index_head.php";
                     <input type="submit" name="signUp" value="Sign Up" class="btn btn-primary" required>
                 </div>
                 <div class="mb-3 text-center small">
-                    Already have an account? <a href="./index.php">Sign In</a>.
+                    Already have an account? <a class="text-dark" href="./index.php">Sign In</a>.
                 </div>
             </form>
         </main>
