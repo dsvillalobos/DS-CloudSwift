@@ -28,7 +28,7 @@ if (empty($_SESSION["userId"])) {
                     <span class="fw-bold">Created by</span> @dsvillalobos
                 </li>
                 <li class="list-group-item">
-                    <span class="fw-bold">Version</span> 0.2.1
+                    <span class="fw-bold">Version</span> 0.2.2
                 </li>
                 <li class="list-group-item">
                     <span class="fw-bold">Help & Privacy</span>
