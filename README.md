@@ -21,11 +21,11 @@ DS CloudSwift is your ultimate solution for easy, fast, and secure cloud storage
 
 Discover the core architecture and design principles behind the application. The Software Design Documentation delivers an in-depth look into the inner workings, providing a thorough understanding of DS CloudSwift's structure.
 
-[DS CloudSwift's SDD](https://1drv.ms/f/s!Ailusu2OkHmZhokEaACA3ipBIubgvQ?e=7aQwSP)
+[DS CloudSwift SDD](https://1drv.ms/f/s!Ailusu2OkHmZhokEaACA3ipBIubgvQ?e=7aQwSP)
 
 ### Release Notes
 
-###### DS CloudSwift Version 1.0.1
+###### DS CloudSwift Version 1.0.2
 
 - Bug fixes.
 - New animations.
