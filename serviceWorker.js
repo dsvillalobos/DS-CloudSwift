@@ -1,4 +1,4 @@
-// DS CloudSwift Version 1.0.0
+// DS CloudSwift Version 1.0.1
 
 self.addEventListener("install", (e) => {
   e.waitUntil(

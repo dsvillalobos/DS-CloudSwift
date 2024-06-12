@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#22223b" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="apple-touch-icon" href="./public/images/icons/Icon-192.png">
+    <link rel="apple-touch-icon" href="./public/images/icons/icon-192.png">
     <link rel="manifest" href="./manifest.json">
     <link rel="apple-touch-startup-image" media="screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="./public/images/splash-screens/iPhone_15_Pro_Max__iPhone_15_Plus__iPhone_14_Pro_Max_landscape.png">
     <link rel="apple-touch-startup-image" media="screen and (device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="./public/images/splash-screens/iPhone_15_Pro__iPhone_15__iPhone_14_Pro_landscape.png">
