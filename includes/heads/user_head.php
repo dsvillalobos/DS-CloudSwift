@@ -6,6 +6,6 @@
     <script src="https://kit.fontawesome.com/0036ece5c1.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../public/images/icons/favicon.svg" type="image/x-icon">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#22223b" />
 </head>
