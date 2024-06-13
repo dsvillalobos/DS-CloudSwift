@@ -1,10 +1,9 @@
-// DS CloudSwift Version 1.0.5
+// DS CloudSwift Version 1.0.6
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open("Static").then((cache) => {
       return cache.addAll([
-        "/",
         "./",
         "./index.php",
         "./manifest.json",

@@ -25,7 +25,6 @@ Discover the core architecture and design principles behind the application. The
 
 ### Release Notes
 
-###### DS CloudSwift Version 1.0.5
+###### DS CloudSwift Version 1.0.6
 
 - Bug fixes.
-- Removed the animations.
