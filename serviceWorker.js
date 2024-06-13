@@ -1,9 +1,14 @@
-// DS CloudSwift Version 1.0.4
+// DS CloudSwift Version 1.0.5
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open("Static").then((cache) => {
       return cache.addAll([
+        "/",
+        "./",
+        "./index.php",
+        "./manifest.json",
+        "https://kit.fontawesome.com/0036ece5c1.js",
         "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css",
         "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js",
         "https://cdn.jsdelivr.net/npm/chart.js",
