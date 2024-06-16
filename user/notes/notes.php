@@ -109,7 +109,7 @@ if (empty($_SESSION["userId"])) {
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <p class="m-0">' . $row["NoteBody"] . '</p>
+                                    <textarea class="form-control" readonly rows="15">' . $row["NoteBody"] . '</textarea>
                                 </div>
                             </div>
                         </div>
