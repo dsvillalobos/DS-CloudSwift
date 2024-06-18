@@ -2,11 +2,11 @@
   "name": "DS CloudSwift",
   "short_name": "DS CloudSwift",
   "description": "Your Stuff, Everywhere.",
-  "start_url": "./",
+  "start_url": "/",
   "background_color": "#f8f9fa",
   "theme_color": "#22223b",
   "display": "standalone",
-  "scope": "./",
+  "scope": "/",
   "lang": "en-US",
   "icons": [
     {
