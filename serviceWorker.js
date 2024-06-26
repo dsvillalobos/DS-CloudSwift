@@ -1,4 +1,4 @@
-// DS CloudSwift Version 1.0.8
+// DS CloudSwift Version 1.0.9
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
@@ -23,7 +23,7 @@ self.addEventListener("install", (e) => {
         "./public/images/illustrations/files.webp",
         "./public/images/illustrations/links.webp",
         "./public/images/illustrations/notes.webp",
-        "./public/images/illustrations/sign-in.webp",
+        "./public/images/illustrations/sign-in.svg",
         "./public/images/illustrations/sign-up.webp",
         "./public/images/splash-screens/iPhone_15_Pro_Max__iPhone_15_Plus__iPhone_14_Pro_Max_landscape.png",
         "./public/images/splash-screens/iPhone_15_Pro__iPhone_15__iPhone_14_Pro_landscape.png",

@@ -17,7 +17,7 @@ include "./includes/heads/index_head.php";
     <div class="content-container col-md-8 mx-auto">
         <main class="container">
             <div class="illustration-container text-center mb-3">
-                <img class="mb-3" src="./public/images/illustrations/sign-in.webp" alt="Sign In to DS CloudSwift">
+                <img class="mb-3" src="./public/images/illustrations/sign-in.svg" alt="Sign In to DS CloudSwift">
                 <h3 class="mb-2">Sign In to DS CloudSwift</h3>
                 <p class="text-center small mx-3">Get started swiftly! Sign in to access your files, links, and notes securely.</p>
             </div>
